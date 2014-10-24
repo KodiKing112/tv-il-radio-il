@@ -1,3 +1,6 @@
+#EXTM3U
+
+
 #EXTINF:-1 tvg-id="200.tv.walla.co.il" tvg-name="ערוץ 1" tvg-logo="tv-1ch.png",הערוץ הראשון 
 rtmp://s3ufl.castup.net:1935/990310102-123.flv/_definst_/_definst_
 
@@ -7,15 +10,17 @@ rtmp://besttv1.flashlive.it.best-tv.com:1935/besttv1live-live swfUrl=http://play
 #EXTINF:-1 tvg-id="210.tv.walla.co.il" tvg-name="ערוץ 2" tvg-logo="tv-2ch.png",ערוץ 2 קשת מרביעי עד שבת
 plugin://plugin.video.f4mTester/?url=http://keshethdslive-f.akamaihd.net/z/c2l_1@27705/manifest.f4m
 
+#EXTINF:-1 tvg-id="193.tv.walla.co.il" tvg-name="ערוץ 10" tvg-logo="tv-10ch.png" ,HD ערוץ 10
+http://nana10live-lh.akamaihd.net/i/ch10news_0@93049/master.m3u8
 
-#EXTINF:-1 tvg-id="193.tv.walla.co.il" tvg-name="ערוץ 10" tvg-logo="tv-10ch.png" ,ערוץ 10 
-http://nana10live-lh.akamaihd.net/i/ch10news_0@93049/index_1_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1 tvg-id="193.tv.walla.co.il" tvg-name="ערוץ 10" tvg-logo="tv-10ch.png" ,SD ערוץ 10
+http://nana10live-lh.akamaihd.net/i/CH10LiveMob01_0@70462/master.m3u8
 
 #EXTINF:-1 tvg-id="238.tv.walla.co.il" tvg-name="Israel Plus",ישראל פלוס
 http://sw.gostreaming.tv:1935/live/smil:myStream.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="209.tv.walla.co.il" tvg-name="Kniot" ,ערוץ הקניות
-mms://212.179.13.61/991810001-52.wm
+mms://212.179.13.61/991810001-52.wmv
 
 #EXTINF:-1 tvg-id="255.tv.walla.co.il" tvg-name="Music" ,ערוץ המוזיקה
 plugin://plugin.video.f4mTester/?url=http://keshethdslive-f.akamaihd.net/z/24live_1@193565/manifest.f4m
