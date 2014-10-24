@@ -1,5 +1,5 @@
 #EXTM3U
-#TEST
+#TEST1
 
 #EXTINF:-1 tvg-id="200.tv.walla.co.il" tvg-name="ערוץ 1" tvg-logo="tv-1ch.png",הערוץ הראשון 
 rtmp://s3ufl.castup.net:1935/990310102-123.flv/_definst_/_definst_
