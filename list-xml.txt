@@ -1,0 +1,9 @@
+channel=200.tv.walla.co.il
+channel=210.tv.walla.co.il
+channel=193.tv.walla.co.il
+channel=238.tv.walla.co.il
+channel=209.tv.walla.co.il
+channel=255.tv.walla.co.il
+channel=3054.tv.walla.co.il
+channel=152.tv.walla.co.il
+channel=521.tv.walla.co.il
