@@ -1,20 +1,34 @@
 #EXTM3U
-#TEST1
 
 #EXTINF:-1 tvg-id="200.tv.walla.co.il" tvg-name="ערוץ 1" tvg-logo="tv-1ch.png",הערוץ הראשון 
 rtmp://s3ufl.castup.net:1935/990310102-123.flv/_definst_/_definst_
 
-#EXTINF:-1 tvg-id="210.tv.walla.co.il" tvg-name="ערוץ 2" tvg-logo="tv-2ch.png",ערוץ 2 רשת מראשון עד שלישי 
-rtmp://besttv1.flashlive.it.best-tv.com:1935/besttv1live-live swfUrl=http://player.longtailvideo.com/player.swf pageUrl=http://www.mapsutim.co.il/tv-israel/22-israel-tv playpath=stream_reshet_live1
+
+#EXTINF:-1 tvg-id="" tvg-name="ערוץ החדשות" tvg-logo="tv-2ch.png",ערוץ החדשות 2 
+http://localhost:88/?url=hds://http://keshethdslive-f.akamaihd.net/z/c2n_1@104826/manifest.f4m&&?q=best&mode=mako
+
+
+#EXTINF:-1 tvg-id="210.tv.walla.co.il" tvg-name="ערוץ 2" tvg-logo="tv-2ch.png",A ערוץ 2 רשת מראשון עד שלישי 
+http://localhost:88/?url=http://www.ustream.tv/embed/18616462?v=3&amp;wmode=direct
+
+
+#EXTINF:-1 tvg-id="210.tv.walla.co.il" tvg-name="ערוץ 2" tvg-logo="tv-2ch.png",B ערוץ 2 רשת מראשון עד שלישי
+http://localhost:88/?url=http://www.ustream.tv/embed/19155031?v=3&wmode=direct&autoplay=true
 
 #EXTINF:-1 tvg-id="210.tv.walla.co.il" tvg-name="ערוץ 2" tvg-logo="tv-2ch.png",ערוץ 2 קשת מרביעי עד שבת
-plugin://plugin.video.f4mTester/?url=http://keshethdslive-f.akamaihd.net/z/c2l_1@27705/manifest.f4m
+http://localhost:88/?url=hds://http://keshethdslive-f.akamaihd.net/z/c2l_1@27705/manifest.f4m&&?q=best&mode=mako
+
 
 #EXTINF:-1 tvg-id="193.tv.walla.co.il" tvg-name="ערוץ 10" tvg-logo="tv-10ch.png" ,HD ערוץ 10
 http://nana10live-lh.akamaihd.net/i/ch10news_0@93049/master.m3u8
 
 #EXTINF:-1 tvg-id="193.tv.walla.co.il" tvg-name="ערוץ 10" tvg-logo="tv-10ch.png" ,SD ערוץ 10
 http://nana10live-lh.akamaihd.net/i/CH10LiveMob01_0@70462/master.m3u8
+
+#EXTINF:-1  tvg-id="547.tv.walla.co.il",ערוץ הילדים
+rtmp://extondemand.livestream.com/ondemand/trans/dv03/mogulus-user-files/chsheshx/2010/06/09/ad524a6e-25ff-4c38-ac6f-95d752477d03 playpath=trans/dv03/mogulus-user-files/chsheshx/2010/06/09/ad524a6e-25ff-4c38-ac6f-95d752477d03 swfUrl=http://cdn.livestream.com/chromelessPlayer/v21/playerapi.swf?hideInfo=true&browseMode=false&allowchat=false&autoPlay=true&textLines=2&t=226934&showMoreVideos=false&time=&mode=false&lschannel=true&jsEnabled=false&hideChannelBranding=true pageUrl=http://www.livestream.com tcUrl=rtmp://extondemand.livestream.com/ondemand app=ondemand
+
+
 
 #EXTINF:-1 tvg-id="238.tv.walla.co.il" tvg-name="Israel Plus",ישראל פלוס
 http://sw.gostreaming.tv:1935/live/smil:myStream.smil/playlist.m3u8
@@ -23,12 +37,12 @@ http://sw.gostreaming.tv:1935/live/smil:myStream.smil/playlist.m3u8
 mms://212.179.13.61/991810001-52.wmv
 
 #EXTINF:-1 tvg-id="255.tv.walla.co.il" tvg-name="Music" ,ערוץ המוזיקה
-plugin://plugin.video.f4mTester/?url=http://keshethdslive-f.akamaihd.net/z/24live_1@193565/manifest.f4m
+http://localhost:88/?url=hds://http://keshethdslive-f.akamaihd.net/z/24live_1@193565/manifest.f4m&&?q=best&mode=mako
 
 #EXTINF:-1,רשות השידור
 http://sl3cp.castup.net/990310143-123.flv/smil:990310143-123.smil/playlist.m3u8
 
-#EXTINF:-1,Arutz 20 (Israel)
+#EXTINF:-1,ערוץ 20
 http://ynet_hds_live-f.akamaihd.net/i/ynet_1@153521/master.m3u8
 
 #EXTINF:-1,ערוץ הכנסת 
@@ -44,10 +58,10 @@ http://hidabroot.vod.linnovate.net:1935/hidabroot/hidabroot/chunklist_w157239598
 http://edge1.il.kab.tv/rtplive/tv66-heb-high.stream/playlist.m3u8
 
 #EXTINF:-1  tvg-id="521.tv.walla.co.il" tvg-name="ספורט 5" , Sport5 1 (Israel)
-rtmp://s5-s.nsacdn.com:1935/sport5_Live1Repeat/Live1_1 swfUrl=http://playern.sport5.co.il/Plugins/RTMPPlugin.swf pageUrl=http://playern.sport5.co.il/Player.aspx?clipId=Live1&Type=live
+rtmp://62.90.90.34:1935/sport5_Live1Repeat playpath=Live1_3 swfUrl=http://rr-d.nsacdn.com/fplayer/player/swf/flowplayer.commercial-3.2.20.swf pageUrl=http://rr-d.nsacdn.com/live/s5site/Live1/640/480
 
 #EXTINF:-1 tvg-id="521.tv.walla.co.il" tvg-name="ספורט 5",Sport5 2 (Israel)  
-rtmp://s5-s.nsacdn.com:1935/sport5_Live3Repeat/Live3_3 swfUrl=http://playern.sport5.co.il/Plugins/RTMPPlugin.swf pageUrl=http://playern.sport5.co.il/Player.aspx?clipId=Live3&Type=live
+rtmp://82.80.192.13:1935/sport5_Live3Repeat playpath=Live3_3 swfUrl=http://rr-d.nsacdn.com/fplayer/player/swf/flowplayer.commercial-3.2.20.swf pageUrl=http://rr-d.nsacdn.com/live/s5site/Live1/640/480
 
 
 #EXTINF:-1,BBC One (UK)
@@ -133,6 +147,7 @@ http://80.77.52.6:4022/udp/230.0.3.15:12345
 
 #EXTINF:-1,Tom And Jerry
 rtmp://66.90.111.18/ctv/tom playpath=tom swfUrl=http://www.canaistv.net/swf/player.swf live=r.ates pageUrl=http://www.canaistv.net/tvamigos/tomejerry.html
+
 
 #EXTINF:-1,[COLOR orange]Sports[/COLOR]
 http://www.xbmcil.com/

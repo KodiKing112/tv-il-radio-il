@@ -7,3 +7,4 @@ channel=255.tv.walla.co.il
 channel=3054.tv.walla.co.il
 channel=152.tv.walla.co.il
 channel=521.tv.walla.co.il
+channel=547.tv.walla.co.il

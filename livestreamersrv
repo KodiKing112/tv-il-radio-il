@@ -88,7 +88,7 @@ class StreamHandler(BaseHTTPRequestHandler):
 	   	makoTicket = urllib.urlopen('http://mass.mako.co.il/ClicksStatistics/entitlementsServices.jsp?et=gt&rv=akamai').read()
 	   	result = json.loads(makoTicket)
 	   	ticket = result['tickets'][0]['ticket']
-		url =  url+"?"+ticket+"%20pvswf=http://images0.kure.tv/jw9/jwplayer.flash.swf"
+		url =  url+"?"+ticket+" "+ "pvswf=http://images0.kure.tv/jw9/jwplayer.flash.swf"
 		
     	except IndexError:
 	        quality="best"
